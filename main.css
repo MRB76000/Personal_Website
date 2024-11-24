@@ -1,0 +1,99 @@
+:root{
+    --dark-bg: rgb(28, 28, 27);
+    --accent: rgb(0, 85, 255);
+    --main-bg: rgb(255, 255, 255);
+}
+
+
+html{
+    font-family: "Outfit", "Arial";
+    background-color: var(--main-bg)
+    
+
+}
+header{
+    background-color: var(--dark-bg);
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    align-content: center;
+    
+    width: 100vw;
+    border-bottom: 4px solid var(--accent);
+}
+
+#flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    height: max-content;
+}
+
+
+#men{
+    flex-basis: 150px;
+    display: inline;
+}
+
+.apps{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    color: var(--accent);
+    flex-basis: 500px;
+
+   
+    border-radius: 20px;
+    
+}
+
+.apps svg{
+    width: 60px;
+    display: inline;
+    transition: .2s ;
+   
+}
+
+svg:hover{
+    width: 80px;
+}
+
+
+
+
+body{
+    margin: 0px;
+    
+}
+
+header p{
+    color: var(--main-bg);
+    margin: 0px;
+    display: inline-block;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+
+
+#hello{
+    margin-top: 20em;
+    text-align: center;
+    
+}
+
+#who{
+    /* margin-bottom: 0px; */
+}
+
+#name{
+    margin-top: 0px;
+    font-size: 80px;
+}
+
+.orange{
+    color: var(--accent);
+
+}
