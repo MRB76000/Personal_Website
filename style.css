@@ -1,35 +1,9 @@
 :root{
-    --dark-bg: rgb(28, 28, 27);
-    --accent: rgb(0, 85, 255);
-    --main-bg: rgb(255, 255, 255);
+    --dark-bg: #17486E;
+    --accent: #D22D9B; 
+    --main-bg: #EAF4FB;
+    --text: #071922;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 html{
@@ -45,7 +19,7 @@ header{
     padding: 0px;
     height: 100px;
     align-content: center;
-    border-bottom: blue 2px solid;
+    border-bottom: var(--main-bg) 3px solid;
     
     width: 100vw;
 
@@ -69,7 +43,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;    
-    color: var(--accent);
+    color: var(--main-bg);
     flex-basis: 500px;
 
    
@@ -127,14 +101,16 @@ header p{
     font-size: 80px;
 }
 
-.orange{
-    color: var(--accent);
 
-}
 
 #facts{
-    background-color: var(--dark-bg);
+    background-image: linear-gradient(to right, var(--dark-bg), var(--accent));
     height: 100vh;
     margin-top: -10px;
     
+}
+
+#ab{
+    font-size: 100px;
+    color: var(--main-bg);
 }
