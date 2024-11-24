@@ -5,6 +5,33 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html{
     font-family: "Outfit", "Arial";
     background-color: var(--main-bg)
@@ -12,14 +39,16 @@ html{
 
 }
 header{
+    position:fixed;
     background-color: var(--dark-bg);
     margin: 0px;
     padding: 0px;
     height: 100px;
     align-content: center;
+    border-bottom: blue 2px solid;
     
     width: 100vw;
-    border-bottom: 4px solid var(--accent);
+
 }
 
 #flex{
@@ -55,10 +84,15 @@ header{
    
 }
 
-svg:hover{
+.apps svg:hover{
     width: 80px;
 }
 
+img{
+    height: 400px;
+    width: 100vw;
+   
+}
 
 
 
@@ -79,7 +113,7 @@ header p{
 
 
 #hello{
-    margin-top: 20em;
+    padding-top: 30vh;
     text-align: center;
     
 }
@@ -96,4 +130,11 @@ header p{
 .orange{
     color: var(--accent);
 
+}
+
+#facts{
+    background-color: var(--dark-bg);
+    height: 100vh;
+    margin-top: -10px;
+    
 }
