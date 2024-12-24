@@ -101,10 +101,14 @@ header p{
     font-size: 80px;
 }
 
+.accent{
+    color: var(--accent);
+}
+
 
 
 #facts{
-    background-image: linear-gradient(to right, var(--dark-bg), var(--accent));
+    background-color: var(--dark-bg);
     height: 100vh;
     margin-top: -10px;
     
@@ -113,4 +117,11 @@ header p{
 #ab{
     font-size: 100px;
     color: var(--main-bg);
+    margin-top: 0px;
+    text-align: center;
+}
+
+#me{
+    width: 400px;
+    
 }
